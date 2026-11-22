@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+    font-size: 1.2em;
+}
+
+/* 95% van de canvas en gecentreerd */
+#wrapper {
+    width: 95%;
+    margin: 0 auto;
+}
+
+h1,
+h2 {
+    color: #007e7e;
+}
+
+h1 {
+    font-size: 150%;
+}
+
+h2 {
+    font-size: 130%;
+}
+
+header {
+    text-align: center;
+}
+
+#imgHeader {
+    max-width: 100%;
+    height: 200px;
+}
+
+/* inhoud: 70% links */
+#content {
+    float: left;
+    width: 70%;
+    padding-right: 20px;
+    font-size: 0.7em;
+    color: #444444;
+}
+
+#content a {
+    color: #444444;
+}
+
+/* kader: marge 30px, padding 20px, kleur 444444, achtergrond a7cece, witte stippellijn */
+#guarantee {
+    margin: 30px;
+    padding: 20px;
+    padding-left: 90px;
+    color: #444444;
+    background-color: #a7cece;
+    border: 2px dashed white;
+    font-family: Georgia, serif;
+    font-style: italic;
+    background-image: url("../images/background.gif");
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+/* cursief en vet */
+.cd {
+    font-style: italic;
+}
+
+.artist {
+    font-weight: bold;
+}
+
+/* weekly specials: de rest (30%) rechts */
+#elixirs {
+    float: right;
+    width: 30%;
+    padding: 0 15px 15px 15px;     /* tekst niet tegen de rand */
+    font-size: 0.7em;
+    text-align: center;
+    border: 2px solid #007e7e;
+}
+
+/* andere kleuren voor h1 en h2 in weekly specials */
+#elixirs h1 {
+    color: black;
+}
+
+#elixirs h2 {
+    color: #d12c47;
+}
+
+#elixirs a {
+    color: black;
+}
+
+/* bruine achtergrond bij hover */
+#elixirs a:hover {
+    background-color: brown;
+    color: white;
+}
+
+/* footer: helft van de algemene lettergrootte */
+footer {
+    clear: both;
+    text-align: center;
+    font-size: 0.5em;
+    padding-top: 20px;
+}
